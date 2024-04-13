@@ -1,14 +1,14 @@
 {
-  "name": "express-jwt-jwks",
+  "name": "@p2dev/express-jwt-jwks",
   "version": "1.0.0",
-  "description": "Simple JWT auth using JWKS key sets for Express.  Wraps express-jwt and jwks-rsa.  AWS Cognito compatible.",
+  "description": "P2.Dev maintained fork of express-jwt-jwks. Simple JWT auth using JWKS key sets for Express.  Wraps express-jwt and jwks-rsa.  AWS Cognito compatible.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rangle/express-jwt-jwks.git"
+    "url": "git+https://github.com/P2Dev/express-jwt-jwks.git"
   },
   "keywords": [
     "auth",
@@ -22,15 +22,20 @@
     "cognito"
   ],
   "author": {
+    "name": "Paul Demers",
+    "email": "paul@p2.dev",
+    "url": "https://p2.dev"
+  },
+  "contributors": [{
     "name": "Dave MacDonald",
     "email": "dave.macdonald@rangle.io",
     "url": "https://rangle.io"
-  },
+  }],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rangle/express-jwt-jwks/issues"
+    "url": "https://github.com/P2Dev/express-jwt-jwks/issues"
   },
-  "homepage": "https://github.com/rangle/express-jwt-jwks#readme",
+  "homepage": "https://github.com/P2Dev/express-jwt-jwks#readme",
   "dependencies": {
     "express-jwt": "^8.4.1",
     "jwks-rsa": "^3.1.0"
